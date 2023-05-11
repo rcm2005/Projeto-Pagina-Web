@@ -9,31 +9,37 @@
 </head>
 <body>
 
+    
 
 
-<div class="container">
-    <nav id="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="programa.html">Programa</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
-    <h1>LOGIN</h1>
+    <div class="container">
 
-    <form id="form">
-        <p>Usuário:<input type="text" id="usuario"></p><br>
-        <p>Usuário:<input type="password" id="senha"></p><br>
-        <input type="submit" value="enviar" id="login" onclick="validar()">
-    </form>
+        
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programa.html">Programa</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <p id="pbv">seja bem vindo a pagina</p>
+        <h1>LOGIN</h1>
+
+        <form id="form">
+            <div class = 'form__content'>
+            <p>Usuário:<input type="text" id="usuario"></p><br>
+            <p>Senha:<input type="password" id="senha"></p><br>
+            </div>
+            <input type="submit" value="enviar" id="login" onclick="validar()">
+            <p id = 'msg1'></p>
+            
+        </form>
 
 
 
-</div>
-
-<footer>
-    @2023 - Todos os direitos reservados.
-</footer>
+    </div>
+    
+    <footer> @2023 - Todos os direitos reservados.</footer>
 
 <script src='script.js'></script>
 

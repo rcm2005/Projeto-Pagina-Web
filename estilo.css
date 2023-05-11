@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
 body{
     background-image: linear-gradient(to right, rgb(0, 0, 0) ,aqua ) ;
-    color: aquamarine
+    color: aquamarine;
+    font: arial;
+    font-size: 12px;
+    
 }
 
-.container{
+#container{
     width: 100%;
     height: 800px;
     margin:auto;
@@ -11,6 +16,8 @@ body{
 }
 
 #menu{
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     height: 150px;
     text-align: center;
@@ -36,6 +43,9 @@ body{
     border-radius: 100%;
 
 }
+menu ul li a:active{
+    background-color: white;
+}
 
 h1,h2,h3{
     font-family: Arial;
@@ -46,11 +56,37 @@ h1,h2,h3{
 }
 footer{
     width: 100%;
-    height: 100px;
+    height: 30px;
     background-color: black;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 400px;
 
 }
+button { 
+    font-size: 12pt; 
+    padding: 30px; 
+    margin-left: 40%;
+    margin-top: 150px;
+    background-color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
 
+   }
+
+#botao{
+    
+    font-size: 12px; 
+    padding: 30px; 
+    margin-left: 40%;
+    margin-top: 150px;
+    background-color: rgb(0, 0, 255);
+    font-weight: bold;
+    text-align: center;
+    
+        
+       
+}
 
 /*login*/
 
@@ -60,15 +96,87 @@ footer{
     text-align: center;
 }
 
-
+p{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
 #login{
     font-weight: 100px;
     height: 50px;
     background-color: greenyellow;
     text-transform: uppercase;
     font-weight: bold;
-    margin-left: 47%;
+    margin-left: 3%;
+    
+
+}
+.prog{
+    display: flex;
+    font-size: 12pt; 
+    /* padding: 30px;  */
+    /* margin-left: 44%; */
+    /* margin-top: 130px; */
+    background-color: blue;
+    font-weight: bold;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.prog:hover{
+    display: flex;
+    font-size: 12pt; 
+    padding: 30px;
+    background-color: black;
+    color:blue ;
+     
+    /* margin-left: 44%;
+    margin-top: 130px; */
+    text-align: center;
+}
+
+#prog:active{
+    background-color: white;
+    color:blue ;
+    font-size: 12pt; 
+    padding: 30px; 
+    margin-left: 44%;
+    margin-top: 130px;
+    text-align: center;
+}
+#login:hover{
+    text-transform: uppercase;
+    background-color: black;
+    color:greenyellow ;
 }
 
 
+.form__content{
+    margin-left: 150px;
+    
+    display: flex;
+    justify-content: space-between;
+}
 
+ .caxa{
+    display: flex;
+    color: blueviolet;
+    background-image: linear-gradient(cyan, white);
+
+    gap: 4px;
+ }
+    /* margin-right: 50%; */
+
+    /* padding: 5px;
+    margin: 8px;
+    margin-left: 540px;
+    align-items: center; 
+*/ 
+
+.caxas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
